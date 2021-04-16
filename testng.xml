@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestNG" configfailurepolicy="continue" parallel="tests" thread-count="1">
+
+    <test name="QAAssessment">
+        <classes>
+            <class name="Test.Tests">
+                <methods>
+
+                    <include name="VerifyAuthor"/>
+                    <include name="VerifyImage"/>
+                    <include name="VerifyTitle"/>
+                    <include name="VerifyLinks"/>
+
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
