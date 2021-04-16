@@ -129,12 +129,7 @@ public class CaseMethods extends BasePage {
                     e.printStackTrace();
                 }
             }
-
-
+            
     }
-
-
-
-
 
 }
