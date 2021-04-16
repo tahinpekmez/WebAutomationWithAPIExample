@@ -1,21 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="3" total="4" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="TestNG" duration-ms="97021" started-at="2021-04-16T03:21:47Z" finished-at="2021-04-16T03:23:24Z">
+  <suite name="TestNG" duration-ms="236745" started-at="2021-04-16T03:31:13Z" finished-at="2021-04-16T03:35:09Z">
     <groups>
     </groups>
-    <test name="QAAssessment" duration-ms="97021" started-at="2021-04-16T03:21:47Z" finished-at="2021-04-16T03:23:24Z">
+    <test name="QAAssessment" duration-ms="236745" started-at="2021-04-16T03:31:13Z" finished-at="2021-04-16T03:35:09Z">
       <class name="Test.Tests">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:Test.Tests@97e1986]" name="beforeSuite" is-config="true" duration-ms="153" started-at="2021-04-16T03:21:47Z" finished-at="2021-04-16T03:21:47Z">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:Test.Tests@97e1986]" name="beforeSuite" is-config="true" duration-ms="157" started-at="2021-04-16T03:31:12Z" finished-at="2021-04-16T03:31:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="Setup()[pri:0, instance:Test.Tests@97e1986]" name="Setup" is-config="true" duration-ms="2365" started-at="2021-04-16T03:21:47Z" finished-at="2021-04-16T03:21:49Z">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:Test.Tests@97e1986]" name="Setup" is-config="true" duration-ms="2417" started-at="2021-04-16T03:31:13Z" finished-at="2021-04-16T03:31:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:Test.Tests@97e1986]" name="beforeMethod" is-config="true" duration-ms="10" started-at="2021-04-16T03:21:49Z" finished-at="2021-04-16T03:21:49Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:Test.Tests@97e1986]" name="beforeMethod" is-config="true" duration-ms="48" started-at="2021-04-16T03:31:15Z" finished-at="2021-04-16T03:31:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Test.Tests.VerifyAuthor()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="VerifyAuthor()[pri:0, instance:Test.Tests@97e1986]" name="VerifyAuthor" duration-ms="103960" started-at="2021-04-16T03:31:15Z" finished-at="2021-04-16T03:32:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyAuthor -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test.Tests@97e1986]" name="tearDown" is-config="true" duration-ms="1" started-at="2021-04-16T03:32:59Z" finished-at="2021-04-16T03:32:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyAuthor status=SUCCESS method=Tests.VerifyAuthor()[pri:0, instance:Test.Tests@97e1986] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:Test.Tests@97e1986]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2021-04-16T03:32:59Z" finished-at="2021-04-16T03:32:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Test.Tests.VerifyImage()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="VerifyImage()[pri:0, instance:Test.Tests@97e1986]" name="VerifyImage" duration-ms="3010" started-at="2021-04-16T03:32:59Z" finished-at="2021-04-16T03:33:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyImage -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:Test.Tests@97e1986]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2021-04-16T03:33:02Z" finished-at="2021-04-16T03:33:02Z">
           <params>
             <param index="0">
               <value>
@@ -26,11 +67,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="VerifyTitle()[pri:0, instance:Test.Tests@97e1986]" name="VerifyTitle" duration-ms="93474" started-at="2021-04-16T03:21:49Z" finished-at="2021-04-16T03:23:23Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test.Tests@97e1986]" name="tearDown" is-config="true" duration-ms="0" started-at="2021-04-16T03:33:02Z" finished-at="2021-04-16T03:33:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyImage status=SUCCESS method=Tests.VerifyImage()[pri:0, instance:Test.Tests@97e1986] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="VerifyTitle()[pri:0, instance:Test.Tests@97e1986]" name="VerifyTitle" duration-ms="102035" started-at="2021-04-16T03:33:02Z" finished-at="2021-04-16T03:34:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyTitle -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test.Tests@97e1986]" name="tearDown" is-config="true" duration-ms="0" started-at="2021-04-16T03:23:23Z" finished-at="2021-04-16T03:23:23Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test.Tests@97e1986]" name="tearDown" is-config="true" duration-ms="0" started-at="2021-04-16T03:34:44Z" finished-at="2021-04-16T03:34:44Z">
           <params>
             <param index="0">
               <value>
@@ -41,11 +93,37 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="AfterClass()[pri:0, instance:Test.Tests@97e1986]" name="AfterClass" is-config="true" duration-ms="1157" started-at="2021-04-16T03:23:23Z" finished-at="2021-04-16T03:23:24Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:Test.Tests@97e1986]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2021-04-16T03:34:44Z" finished-at="2021-04-16T03:34:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Test.Tests.VerifyLinks()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="VerifyLinks()[pri:0, instance:Test.Tests@97e1986]" name="VerifyLinks" duration-ms="24330" started-at="2021-04-16T03:34:44Z" finished-at="2021-04-16T03:35:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLinks -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test.Tests@97e1986]" name="tearDown" is-config="true" duration-ms="1" started-at="2021-04-16T03:35:08Z" finished-at="2021-04-16T03:35:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyLinks status=SUCCESS method=Tests.VerifyLinks()[pri:0, instance:Test.Tests@97e1986] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="AfterClass()[pri:0, instance:Test.Tests@97e1986]" name="AfterClass" is-config="true" duration-ms="930" started-at="2021-04-16T03:35:08Z" finished-at="2021-04-16T03:35:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterClass -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:Test.Tests@97e1986]" name="afterSuite" is-config="true" duration-ms="297" started-at="2021-04-16T03:23:24Z" finished-at="2021-04-16T03:23:24Z">
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:Test.Tests@97e1986]" name="afterSuite" is-config="true" duration-ms="283" started-at="2021-04-16T03:35:09Z" finished-at="2021-04-16T03:35:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
