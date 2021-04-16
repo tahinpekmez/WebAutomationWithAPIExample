@@ -9,5 +9,8 @@
         <module name="Commencis" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Commencis" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
